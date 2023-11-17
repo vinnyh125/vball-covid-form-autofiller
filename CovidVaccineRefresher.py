@@ -6,12 +6,12 @@ PATH = "C:\Program Files (x86)\chromedriver.exe"
 
 driver = webdriver.Chrome(PATH)
 
-driver.get("https://docs.google.com/forms/d/e/1FAIpQLSehh3iXrXCnIyvZytx6whYW0VHuN_NGGFXiUeIJaAbfCogP7w/viewform")
+driver.get("google form link here")
 
 time.sleep(.25)
 
 email = driver.find_element_by_class_name("quantumWizTextinputPaperinputInput")
-email.send_keys("vincenthuang@hvrsd.org")
+email.send_keys("email here")
 
 time.sleep(.25)
 
